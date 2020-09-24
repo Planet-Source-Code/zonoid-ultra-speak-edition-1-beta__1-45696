@@ -1,0 +1,112 @@
+[Root]
+Most Recent Package=Ultra Speak Edition 1
+
+
+[Package|Ultra Speak Edition 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Ultra\Ultra Speak Edition 1\Final
+
+[Package|Ultra Speak Edition 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Ultra Speak Edition 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Ultra Speak Edition 1|Files Found]
+
+[Package|Ultra Speak Edition 1|Files Released]
+
+[Package|Ultra Speak Edition 1|Missing Dependency Information]
+
+[Package|Ultra Speak Edition 1|Out-of-Date Dependency Information]
+
+[Package|Ultra Speak Edition 1|Files Added]
+c:\documents and settings\unknown user\desktop\autorun.inf=
+C:\Ultra Speak Edition 1.ico=
+
+[Package|Ultra Speak Edition 1|Files Removed]
+
+[Package|Ultra Speak Edition 1|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\sapi.dll=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Unknown User\Desktop\Ultra Speak Edition 1.exe=Yes
+C:\WINDOWS\SYSTEM32\VTEXT.DLL=Yes
+C:\WINDOWS\SYSTEM32\XLISTEN.DLL=Yes
+C:\Documents and Settings\Unknown User\Desktop\Autorun.inf=Yes
+C:\Ultra Speak Edition 1.ico=Yes
+
+[Package|Ultra Speak Edition 1|Configure Registry Files]
+Applicable=No
+
+[Package|Ultra Speak Edition 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Ultra Speak Edition 1|Install Locations]
+C:\Program Files\Microsoft Speech SDK 5.1 NUMBER 2\Samples\VB\SimpleDict\SimpleDictVB.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\sapi.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\VTEXT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\XLISTEN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Unknown User\Desktop\Ultra Speak Edition 1.exe=$(AppPath)
+C:\WINDOWS\speech\VTEXT.DLL=$(WinSysPath)
+C:\WINDOWS\speech\XLISTEN.DLL=$(WinSysPath)
+C:\Documents and Settings\Unknown User\Desktop\Autorun.inf=$(AppPath)
+C:\Ultra Speak Edition 1.ico=$(AppPath)
+
+[Package|Ultra Speak Edition 1|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Speech SDK 5.1 NUMBER 2\Samples\VB\SimpleDict\SimpleDictVB.exe=No
+C:\Documents and Settings\Unknown User\Desktop\Ultra Speak Edition 1.exe=No
+C:\Documents and Settings\Unknown User\Desktop\Autorun.inf=No
+C:\Ultra Speak Edition 1.ico=No
+
+[Package|Ultra Speak Edition 1|Distribution]
+Type=single
+Size=
+Title=Ultra Speak Edition 1
+
+[Package|Ultra Speak Edition 1|IconGroups]
+Group0=Ultra Speak Edition 1
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Ultra Speak Edition 1|Ultra Speak Edition 1]
+Icon1=SimpleDictVB.exe
+Title1=Ultra Speak Edition 1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Ultra Speak Edition 1|Package]
+PackageFolder=C:\Ultra\Ultra Speak Edition 1\Final
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Ultra Speak
+ServerSideCab=
+File1=C:\Ultra\Ultra Speak Edition 1\Final\setup.exe
+File2=C:\Ultra\Ultra Speak Edition 1\Final\Setup.Lst
+File3=C:\Ultra\Ultra Speak Edition 1\Final\Ultra Speak Edition 1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
